@@ -1,17 +1,9 @@
 from dbconnection import dbUser
 
-def connectToDB(x,y,z):
+def connectToDB(x,y):
     print(x)
     print(y)
-    print(z)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-if __name__ == '__main__':
-    print_hi('helo world')
-    print("another line of code")
-    print("this is some text for the second commit")
-    connectToDB(3,4,dbUser)
+print("Helloworld...")
+connectToDB(5,dbUser)
 
